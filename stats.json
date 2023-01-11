@@ -1,0 +1,50 @@
+{
+    "recording"=>{
+        "track_count"=>"138395"
+    },
+    "artist"=>{
+        "artist_count"=>"1020"
+    },
+    "releases"=>{
+        "releases_count"=>"4156"
+    },
+    "labels"=>{
+        "labels_count"=>"472"
+    },
+    "tracks"=>{
+        "tracks_count"=>"13996"
+    },
+    "flac"=>{
+        "flac_count"=>"3297"
+    },
+    "mp3"=>{
+        "mp3_count"=>"859"
+    },
+    "members"=>{
+        "members_count"=>"2976"
+    },
+    "listeners_total_count"=>{
+        "firstConnect"=>"2020-05-25 11:42:03",
+        "lastConnect"=>"2022-05-18 08:51:32",
+        "totalListeners"=>"7859"
+    }
+}
+
+{
+    "total_artists"=>"1020",
+    "total_albums"=>"4156",
+    "total_songs"=>"13996",
+    "flac_format"=>"3297",
+    "mp3_format"=>"859",
+    "first_listener"=>"2020-05-25 11:42:03",
+    "last_listener"=>"2022-05-18 09:00:13",
+    "total_listeners"=>"7859",
+    "station"=>"Hawkwynd Radio",
+    "active_listeners"=>3,
+    "hits"=>5804,
+    "uptime_hours"=>39,
+    "peak_listeners"=>33,
+    "avg_time"=>"30:37:34",
+    "sample_rate"=>"44100",
+    "bitrate"=>"128"
+}

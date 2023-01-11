@@ -1,0 +1,29 @@
+{
+    "query"=>{
+        "artist"=>"KC And The Sunshine Band",
+        "title"=>"Boogie Shoes",
+        "querystring"=>"SELECT a.discogs_id artistID, rel.id, rel.discogs_id releaseID, rel.year, rel.country, rel.genres, \n                            rel.styles, r.title, r.release_id, a.name artist, rel.title release_title, \n                            l.name label, p.profile, c.path coverIMG, au.attribute audioType, r.plays played\n                    FROM recording r \n                    LEFT JOIN artist a on a.discogs_id=r.artist_id\n                    lEFT JOIN `profile` p on p.discogs_id = a.discogs_id\n                    LEFT JOIN releases rel on rel.discogs_id = r.release_id\n                    LEFT JOIN covers c on c.release_id = r.release_id\n                    LEFT JOIN labels l on l.discogs_id = rel.label_id\n                    LEFT JOIN audio au on au.audio_id = rel.audio\n                    WHERE r.title   = 'Boogie Shoes'\n                    AND a.name      = 'KC And The Sunshine Band'\n                    LIMIT 1"
+    },
+    "artist"=>{
+        "name"=>nil,
+        "id"=>0,
+        "excerpt"=>nil,
+        "members"=>[]
+    },
+    "recording"=>{
+        "title"=>nil,
+        "audio"=>nil,
+        "plays"=>nil
+    },
+    "release"=>{
+        "id"=>nil,
+        "title"=>nil,
+        "label"=>nil,
+        "year"=>nil,
+        "country"=>nil,
+        "genres"=>nil,
+        "styles"=>nil,
+        "coverImg"=>nil,
+        "tracklist"=>[]
+    }
+}

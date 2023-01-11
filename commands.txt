@@ -1,0 +1,9 @@
+stats - Show statistical data
+playing - now playing
+queue - Jarvis' play queue 
+history - Last hour plays 
+requests - Requests listing
+listen - How to listen to Hawkwynd Radio
+search - [your song title] search 
+listeners - List Top 10 listners by country
+help - show the help available

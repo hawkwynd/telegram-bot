@@ -1,0 +1,52 @@
+{
+    "artist"=>"Cream",
+    "title"=>"Strange Brew ",
+    "excerpt"=>"Cream were  a British rock band formed in London in 1966. The group consisted of bassist Jack Bruce, guitarist Eric Clapton, and drummer Ginger Baker.",
+    "release"=>{
+        "id"=>"464570",
+        "title"=>"Disraeli Gears",
+        "label"=>"ATCO Records",
+        "year"=>"1967",
+        "country"=>"US",
+        "genres"=>"Rock",
+        "styles"=>"Blues Rock,Psychedelic Rock",
+        "coverImg"=>"/img/covers/464570/464570.png",
+        "tracklist"=>[
+            {
+                "position"=>"A2",
+                "title"=>"Sunshine Of Your Love",
+                "duration"=>"4:08"
+            },
+            {
+                "position"=>"A3",
+                "title"=>"World Of Pain",
+                "duration"=>"3:05"
+            },
+            {
+                "position"=>"A5",
+                "title"=>"Blue Condition",
+                "duration"=>"3:26"
+            },
+            {
+                "position"=>"B1",
+                "title"=>"Tales Of Brave Ulysses",
+                "duration"=>"2:50"
+            },
+            {
+                "position"=>"B2",
+                "title"=>"Swlabr",
+                "duration"=>"2:32"
+            },
+            {
+                "position"=>"B3",
+                "title"=>"We're Going Wrong",
+                "duration"=>"3:25"
+            },
+            {
+                "position"=>"B6",
+                "title"=>"Mother's Lament",
+                "duration"=>"1:47"
+            }
+        ]
+    }
+}
